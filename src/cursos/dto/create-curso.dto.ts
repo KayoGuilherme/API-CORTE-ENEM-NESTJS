@@ -19,5 +19,9 @@ export class CreateCursoDto {
 
   @IsNotEmpty()
   @IsNumber()
+  category_id;
+
+  @IsNotEmpty()
+  @IsNumber()
   universidade_id: number;
 }
